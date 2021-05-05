@@ -1,8 +1,14 @@
 # Scala REST API example
 
-## Running Locally
+## ✨ Technologies
 
-Make sure you have Play and sbt installed.  
+- [Scala 2.13.5](https://www.scala-lang.org/)
+- [Sbt 1.5.1](https://www.scala-sbt.org/download.html)
+- [Playframework 2.8.8](https://www.playframework.com/)
+
+## 🚀 Getting started
+
+Make sure you have [Play](https://www.playframework.com/) and [sbt](https://www.scala-sbt.org/download.html) installed and Java run in your machine (version 1.8 or above)
 
 ```sh
 $ git clone https://github.com/eltonsantos/scala-rest-api-example.git
@@ -10,6 +16,8 @@ $ cd scala-rest-api-example
 $ sbt compile stage
 $ sbt run
 ```
+- To access: http://localhost:9000/
+
 ## 👨🏻‍💻 Author
 
 <h3 align="center">
