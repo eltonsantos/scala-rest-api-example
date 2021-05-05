@@ -9,8 +9,8 @@ import scala.collection.mutable
 @Singleton
 class TodoListController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
   private val todoList = new mutable.ListBuffer[TodoListItem]()
-  todoList += TodoListItem(1, "test", true)
-  todoList += TodoListItem(2, "some other value", false)
+  todoList += TodoListItem(1, "A VALUE", true)
+  todoList += TodoListItem(2, "SOME OTHER VALUE", false)
 
   implicit val todoListJson = Json.format[TodoListItem]
   implicit val newTodoListJson = Json.format[NewTodoListItem]
